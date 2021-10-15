@@ -101,7 +101,7 @@ p {
     cursor: pointer;
     text-align: center;
     padding: 10%;
-    color: darkgreen;
+    color: white;
 }
 input#menu {
     display: none;
@@ -116,7 +116,7 @@ input:checked ~ .menu-content {
         max-height: 100%;
         overflow: auto;
         padding: 0;
-        color: darkgreen;
+        color: white;
     }
     .collapsible-menu {
         display: flex;
