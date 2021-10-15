@@ -86,10 +86,11 @@ h2 {
 }
 
 h3 {
-    color: black;
+
     font-size: 25;
     text-align: center; 
     margin: 0;
+    padding: 0 0 10px 0;
 }
 
 h6 {
@@ -101,13 +102,9 @@ a {
     color: inherit;
 }
 
-p {
-    text-align: justify;
-    padding: 2%;
-}
-
 .tekst {
-    padding: 0 2% 0 2%;
+    padding: 2%;
+    text-align: justify;
 }
 
 .logo {
