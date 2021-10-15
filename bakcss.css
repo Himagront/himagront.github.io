@@ -21,8 +21,8 @@
     background-size: cover;
 }
 .block-parallax-1 .md-box {
-    padding: 300px 0 300px;
-
+    /* padding: 35% 0 35%; */
+    height: 100%;
     position: relative;
     text-align: center;
 }
@@ -193,13 +193,14 @@ input:checked ~ .menu-content {
     justify-content: space-around;
     margin-top: 5%;
     font-size: 30px;
-}
-
-.sosialemedier:hover {
     color: white;
 }
 
+.sosialemedier:hover {
+    color: gray;
+}
+
 .sosialemedier i:hover{
-    color: black;
+    color: white;
     cursor: pointer;
 }
