@@ -99,6 +99,8 @@ a {
 }
 
 p {
+    text-align: justify;
+    padding: 2%;
 }
 
 .tekst {
