@@ -6,6 +6,7 @@
 .block-parallax-1 {
     overflow: hidden;
     position: relative;
+    height: 100%;
 }
 .block-parallax-1 .parallax-bg {
     background-attachment: fixed;
@@ -21,9 +22,9 @@
     background-size: cover;
 }
 .block-parallax-1 .md-box {
-    height: 100%;
     position: relative;
     text-align: center;
+    height: inherit;
 }
 .block-parallax-1 .md-box h1 {
     color: #fff;
@@ -72,10 +73,9 @@ body {
 }
 
 h1 {
-    /* margin: 10%; */
     font-size: 500%;
     color: rgb(44, 63, 11);
-    padding-top: 350px;
+    padding-top: 20%;
 }
 
 h2 {
@@ -83,10 +83,10 @@ h2 {
     font-size: 35;
     text-align: center; 
     margin: 0;
+    padding-top: 10%;
 }
 
 h3 {
-
     font-size: 25;
     text-align: center; 
     margin: 0;
@@ -102,9 +102,17 @@ a {
     color: inherit;
 }
 
+p {
+    padding: 1%
+}
+
 .tekst {
     padding: 2%;
     text-align: justify;
+}
+
+.omtekst {
+    padding-top: 3%;
 }
 
 .logo {
@@ -195,7 +203,7 @@ input:checked ~ .menu-content {
     justify-content: space-around;
     margin-top: 5%;
     font-size: 30px;
-    color: white;
+    color: black;
 }
 
 .sosialemedier:hover {
@@ -203,6 +211,45 @@ input:checked ~ .menu-content {
 }
 
 .sosialemedier i:hover{
-    color: white;
+    color: black;
     cursor: pointer;
 }
+
+/* Skjemaoverlag */
+.open-overlay {
+    background-color: RGB(127, 50, 42);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.close-overlay {
+    background-color: RGB(127, 50, 42);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    width: 25%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.noscroll { 
+    overflow: hidden;
+  }
+  
+  .overlay { 
+    background-color: RGB(200, 200, 200, 0.4);
+    position: fixed;
+    justify-content: center;
+    overflow-y: scroll;
+    top: 0; right: 0; bottom: 0; left: 0; }
+  
+  [aria-hidden="true"]  { display: none; }
+  [aria-hidden="false"] { display: flex; }

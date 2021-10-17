@@ -15,15 +15,16 @@
 
     <section class="block-parallax-1">
         <div class="parallax-bg"></div>
-        <div class="md-box">
-             <h1 style="">HIMA-GRØNT</h1>
-             <h2 style="padding-top: 350px;color: white">Dei finaste grønsakene på Haugalandet
+        <div class="md-box" style="background-color: RGB(0, 0, 0, 0.2)">
+             <h1>HIMA-GRØNT</h1>
+             <h2 style="color: white">Dei finaste grønsakene på Haugalandet
                 <br>Levert heim til deg</h2>
+             <p style="color: white;"> ...  om du bur i Nedstrand eller Straumen</p>
         </div>
     </section>
 
     <section style="min-height:400px;background-color: #f5f5f5; color: #141414;">
-        <div class="row" style="padding: 200px 4% 200px 4%">
+        <div class="row" style="padding: 15% 4% 15% 4%">
             <div class="col-4 tekst">
                 <h3>Levande bygder</h3>
                 <p>Her på Hima-Grønt gjer me meir enn dyrke grønsaker.. Me vil vera eit av mange samlingspunktar for folk å samla seg rundt her i Nedstrand. Vårt mål er at Hima-Grønt skal bidrar til å forsterka lokalsamfunnet og skal vera ein plass kor folk blir kjent med kvarandre og med maten dei et. 
@@ -34,7 +35,7 @@
                 <h3>Levande Landbruk</h3>
                 <p>Kjøp lokalt. Me vil at haugalendingar kan få grønsaker som kjem frå Haugalandet, kor dei veit at bonden og alle på garden har det bra. Då kan dei vera sikre på at maten kjem frå ein plass med gode arbeidsvilkår, og at det er produsert på ein måte som byggjar jord, ikkje utmattar ho.
                     <br><br> 
-                    Bondeopprøret i 2021 syna alle i Noreg det som mange visste allereie: bondene trenge meir for varene sine. Med å kjøpa frå Hima-Grønt sikre du at 100% av prisen du betale går til bonden. /p>
+                    Bondeopprøret i 2021 syna alle i Noreg det som mange visste allereie: bøndene treng meir for varene sine. Med å kjøpa frå Hima-Grønt sikrar du at 100% av prisen du betalar går til bonden. </p>
             </div>
             <div class="col-4 tekst">
                 <h3>Levande jord</h3>
@@ -47,8 +48,8 @@
     
     <section class="block-parallax-1  block-parallax-2">
         <div class="parallax-bg"></div>
-        <div class="md-box" style="background-color: RGB(0, 0, 0, 0.5);color: white;">
-            <div class="row" style="padding: 400px 4% 0 4%">
+        <div class="md-box"  style="background-color: RGB(0, 0, 0, 0.5);color: white;">
+            <div class="row" style="padding: 10% 4% 0 4%">
                 <div class="col-4 tekst">
                     <h3>Andelslandbruk</h3>
                     <p>Ved å kjøpa ein andel her få du ei kassa kvar veke som dekkjer grønsaksforbruket til ein vaksen gjennom sesongen (mai/juni til november/desember). Men du kjøper meir enn berre grønsaker.
@@ -68,21 +69,31 @@
                         Men, viss du vil kun har det beste av det beste, kan du skaffe deg ein restaurantkvalitetsandel. Grunna dette tar oss meir tid enn ein vanleg andel, kostar det litt meir og me har kun 10 per sesong.</p>
                 </div>
             </div>
-            <h1 style="padding: 250px 0 150px 0;">Bli med på andelslaget</h1>
+            <!-- <div class="button" onclick="on()" style="display: flex; justify-content: center;">
+                <h2 style="background-color: RGB(127, 50, 42); width: 30%; color: white;">Bli med!</h2>
+            </div> -->
+
+            <button type="button" class="open-overlay">BLI MED PÅ ANDELSLAGET</button>
              
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdgZ9keoxnlDaVNtkl0nVhfzvaqwCcAJwIRLH61rbxg5Wq2fg/viewform?embedded=true" width="640" height="1500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            
+            <section class="overlay" aria-hidden="true">
+                <div style="display: flexbox; justify-content: center;">
+                    <button type="button" class="close-overlay">Lukk skjema</button>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdgZ9keoxnlDaVNtkl0nVhfzvaqwCcAJwIRLH61rbxg5Wq2fg/viewform?embedded=true" width="640" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                </div>
+              </section>
 
         </div>
     </section>
 
     <section style="min-height:400px;">
-        <h2>Om oss</h2>
+        <h2 style="padding: 150px 0 150px 0;">Om oss</h2>
         <div class="row">
             <div class="col-3"></div>
             <div class="col-3">
                 <img src="media/anne-grete.jpeg" style="width: 100%;"></img>
             </div>
-            <div class="col-4" style="padding-top: 5%;">
+            <div class="col-4 omtekst">
                     <p>Anne Grete er ein utdanna gartnar frå Vormedal som har budd i 
                         Nedstrand i mange år. Ho er veldig glad i båe menneske og natur og 
                         ho elskar å få besøk og vise kunder rundt hagen. Ho starta opp Hima-Grønt
@@ -92,13 +103,12 @@
             </div>
         </div>
     
-        <div class="row" style="padding-bottom: 5%;">
+        <div class="row">
             <div class="col-3"></div>
             <div class="col-3">
                 <img src="media/peter.jpg" style="width: 100%;"></img>
             </div>
-            <div class="col-4" style="padding-top: 5%;">
-                <!-- <p>Peter Strutsnes.</p> -->
+            <div class="col-4 omtekst">
                 <p>Peter er ein bondesonn frå Skottland som kom til Haugalandet 
                     i 2018 og har jobba med småskala grønsaksproduksjon sidan då. 
                     Han er veldig opptatt av å støtta norsk landbruk, å byggja eit 
@@ -108,6 +118,31 @@
                 <p>Epost: <a href="mailto:peter@himagront.no">peter@himagront.no</a></p>
                 <p>Telefon: +47 468 61 302</p>
             </div>
+        </div>
+        <div class="row" style="padding-bottom: 5%;">
+            <div class="col-3"></div>
+            <div class="col-3">
+                <img src="media/dompap.jpg" style="width: 100%;"></img>
+            </div>
+            <div class="col-4 omtekst">
+                <p>Mari er frå Bergen og har blant anna økologiske landbruk og naturforvaltning i 
+                    tillegg til at ho har fleire år dyrkingserfaring og erfaring frå to marknadshagar
+                     i Noreg. Ho er veldig glad i det estetiske og byggje opp kunnskap og erfaring 
+                     rundt snittblomstproduksjon til bukett og pynt.</p>
+                <p>Glad i: småfuglar, gamlingar, natur og Bergen.</p>
+                <p>Epost: <a href="mailto:mari@himagront.no">mari@himagront.no</a></p>
+                <p>Telefon: +47 410 80 039</p>
+            </div>
+        </div>
+
+
+        <div class="row" >
+            <div class="col-4"></div>
+            <div class="col-4 sosialemedier" style="padding-bottom: 50px;">
+                <a href="https://www.facebook.com/Hima-Grønt-117983332941284" target="_blank"><i class="fab fa-facebook fa-x3"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-x3"></i></a>
+            </div>
+            <div class="col-4"></div>
         </div>
     </section>
 
@@ -119,6 +154,34 @@
         </div>
     </section> -->
 
+    <script>
+        var body = document.body,
+            overlay = document.querySelector('.overlay'),
+            overlayBtts = document.querySelectorAll('button[class$="overlay"]');
+
+        [].forEach.call(overlayBtts, function(btt) {
+
+        btt.addEventListener('click', function() { 
+
+            /* Detect the button class name */
+            var overlayOpen = this.className === 'open-overlay';
+
+            /* Toggle the aria-hidden state on the overlay and the 
+                no-scroll class on the body */
+            overlay.setAttribute('aria-hidden', !overlayOpen);
+            body.classList.toggle('noscroll', overlayOpen);
+
+            /* On some mobile browser when the overlay was previously
+                opened and scrolled, if you open it again it doesn't 
+                reset its scrollTop property */
+            overlay.scrollTop = 0;
+
+        }, false);
+
+        });
+    </script>
+    
+
 
 </body>
 </html>
@@ -126,11 +189,3 @@
 
 
 
-<div class="row" >
-    <div class="col-4"></div>
-    <div class="col-4 sosialemedier" style="padding-bottom: 50px;">
-        <a href="https://www.facebook.com/Hima-Grønt-117983332941284" target="_blank"><i class="fab fa-facebook fa-x3"></i></a>
-        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-x3"></i></a>
-    </div>
-    <div class="col-4"></div>
-</div>
