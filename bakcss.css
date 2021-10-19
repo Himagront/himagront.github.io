@@ -22,6 +22,7 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    -o-background-size: cover;
 }
 .block-parallax-1 .md-box {
     position: relative;
