@@ -17,7 +17,8 @@
     height: 100%;
     position: absolute;
     width: 100%;
-    /* min-width: 1170px; */
+    min-width: 1170px;
+    min-height: 500px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -227,7 +228,7 @@ input:checked ~ .menu-content {
     text-align: center;
     text-decoration: none;
     /* display: inline-block; */
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
 }
 
@@ -239,7 +240,7 @@ input:checked ~ .menu-content {
     text-align: center;
     text-decoration: none;
     width: 25%;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
 }
 
