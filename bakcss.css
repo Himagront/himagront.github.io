@@ -17,7 +17,7 @@
     height: 100%;
     position: absolute;
     width: 100%;
-    min-width: 1170px;
+    /* min-width: 1170px; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
