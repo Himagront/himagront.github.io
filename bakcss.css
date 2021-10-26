@@ -12,7 +12,7 @@
 .block-parallax-1 .parallax-bg {
     background-attachment: fixed;
     background-image: url('media/bakgrunn.jpg');
-    background-position: 0px 0px;
+    background-position: center center;
     background-repeat: repeat;
     height: 100%;
     position: absolute;
@@ -224,7 +224,7 @@ input:checked ~ .menu-content {
     background-color: RGB(127, 50, 42);
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 2% 4%;
     margin: 0 0 5% 0;
     text-align: center;
     text-decoration: none;
