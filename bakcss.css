@@ -18,9 +18,11 @@
     position: absolute;
     width: 100%;
     min-width: 1170px;
+    min-height: 500px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    -o-background-size: cover;
 }
 .block-parallax-1 .md-box {
     position: relative;
@@ -88,7 +90,7 @@ h2 {
 }
 
 h3 {
-    font-size: 25;
+    font-size: 30;
     text-align: center; 
     margin: 0;
     padding: 0 0 10px 0;
@@ -105,7 +107,7 @@ a {
 
 p {
     padding: 1%;
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 
 .tekst {
@@ -227,7 +229,7 @@ input:checked ~ .menu-content {
     text-align: center;
     text-decoration: none;
     /* display: inline-block; */
-    font-size: 16px;
+    font-size: 30px;
     cursor: pointer;
 }
 
@@ -239,7 +241,7 @@ input:checked ~ .menu-content {
     text-align: center;
     text-decoration: none;
     width: 25%;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
 }
 
