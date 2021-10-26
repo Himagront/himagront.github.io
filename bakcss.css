@@ -11,7 +11,7 @@
 }
 .block-parallax-1 .parallax-bg {
     background-attachment: fixed;
-    background-image: url('media/bakgrunn.jpg');
+    background-image: url('media/bakgrunn-mobile.jpg');
     background-position: center center;
     background-repeat: repeat;
     height: 100%;
@@ -24,6 +24,17 @@
     background-size: cover;
     -o-background-size: cover;
 }
+
+@media only screen and (min-width: 1000px) {
+    .block-parallax-1 .parallax-bg {
+        background-image: url('media/bakgrunn.jpg');
+
+    }
+    .block-parallax-1 .md-box {
+        background-color: RGB(200, 0, 0, 0.5)
+    }
+}
+
 .block-parallax-1 .md-box {
     position: relative;
     text-align: center;
@@ -34,8 +45,19 @@
 }
 
 .block-parallax-2 .parallax-bg { 	
-	background-image: url('media/bakgrunn-2.JPG');
+	background-image: url('media/bakgrunn-2-mobile.JPG');
 }
+
+@media only screen and (min-width: 1000px) {
+    .block-parallax-2 .parallax-bg {
+        background-image: url('media/bakgrunn-2.JPG');
+
+    }
+    .block-parallax-1 .md-box {
+        background-color: RGB(200, 0, 0, 0.5)
+    }
+}
+
 
 
 body {
