@@ -11,7 +11,7 @@
 }
 .block-parallax-1 .parallax-bg {
     background-attachment: fixed;
-    background-image: url('media/bakgrunn-mobile.jpg');
+    background-image: url('media/bakgrunn.jpg');
     background-position: center center;
     background-repeat: repeat;
     height: 100%;
@@ -52,7 +52,7 @@
 }
 
 .block-parallax-2 .parallax-bg { 	
-	background-image: url('media/bakgrunn-2-mobile.JPG');
+	background-image: url('media/bakgrunn-2.JPG');
 }
 
 @media only screen and (min-width: 1000px) {
