@@ -249,7 +249,7 @@ input:checked ~ .menu-content {
 
 /* Skjemaoverlag */
 .open-overlay {
-    background-color: RGB(127, 50, 42);
+    background-color: RGB(175, 40, 50);
     border: none;
     color: white;
     padding: 2% 4%;
@@ -262,7 +262,7 @@ input:checked ~ .menu-content {
 }
 
 .close-overlay {
-    background-color: RGB(127, 50, 42);
+    background-color: RGB(175, 40, 50);
     border: none;
     color: white;
     padding: 15px 32px;
