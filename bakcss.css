@@ -25,14 +25,21 @@
     -o-background-size: cover;
 }
 
+/* Midl tas vekk snart*/
+.block-parallax-1 .md-box {
+    background-color: RGB(200, 0, 0, 0.5)
+}
+
 @media only screen and (min-width: 1000px) {
     .block-parallax-1 .parallax-bg {
         background-image: url('media/bakgrunn.jpg');
 
     }
+
     .block-parallax-1 .md-box {
-        background-color: RGB(200, 0, 0, 0.5)
+        background-color: RGB(0, 0, 0, 0.5)
     }
+
 }
 
 .block-parallax-1 .md-box {
@@ -54,7 +61,7 @@
 
     }
     .block-parallax-1 .md-box {
-        background-color: RGB(200, 0, 0, 0.5)
+        background-color: RGB(0, 0, 0, 0.2)
     }
 }
 
