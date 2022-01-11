@@ -9,7 +9,7 @@ body {
 .row::after {
     content: "";
     clear: both;
-    display: table;
+    display: flex;
   }
 
 /* For mobile phones: */
