@@ -42,7 +42,7 @@
 }
 
 .block-parallax-1 .md-box {
-    position: relative;
+    /* position: relative; */
     text-align: center;
     height: inherit;
     width: 100%;
