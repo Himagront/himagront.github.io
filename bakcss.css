@@ -21,6 +21,7 @@
     width: 100%;
     min-width: 1170px;
     min-height: 800px;
+    overflow: hidden;
 }
 
 
