@@ -24,7 +24,7 @@
 }
 
 .block-parallax-1 .md-box {
-    /* position: relative; */
+    position: relative;
     text-align: center;
     width: 100%;
     height: inherit;
@@ -128,10 +128,6 @@ p {
 .tekst {
     padding: 2%;
     text-align: justify;
-}
-
-.omtekst {
-    
 }
 
 .logo {
