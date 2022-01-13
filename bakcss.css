@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 .block-parallax-1 {
     /* overflow: hidden; */
     position: relative;
@@ -10,7 +11,7 @@
     /* width: 100%; */
 }
 .block-parallax-1 .parallax-bg {
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-image: url('media/bakgrunn.jpg');
     background-position: center center;
     /* background-repeat: repeat; */
@@ -25,10 +26,6 @@
     -o-background-size: cover;
 }
 
-/* Midl tas vekk snart*/
-.block-parallax-1 .md-box {
-    background-color: RGB(200, 0, 0, 0.5)
-}
 
 @media only screen and (min-width: 1000px) {
     .block-parallax-1 .parallax-bg {
@@ -55,12 +52,9 @@
 }
 
 
-body {
+body, html {
     font-family: Trebuchet MS;
-}
-
-* {
-    box-sizing: border-box;
+    height: 100%;
 }
 
 .row::after {
