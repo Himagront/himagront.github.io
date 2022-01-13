@@ -23,6 +23,20 @@
     min-height: 800px;
 }
 
+.block-parallax-1 .md-box {
+    /* position: relative; */
+    text-align: center;
+    height: inherit;
+    width: 100%;
+}
+.block-parallax-1 .md-box h1 {
+    color: #fff;
+}
+
+.block-parallax-2 .parallax-bg { 	
+	background-image: url('media/bakgrunn-2.JPG');
+}
+
 
 @media only screen and (min-width: 1000px) {
     .block-parallax-1 .parallax-bg {
@@ -40,21 +54,6 @@
     }
 
 }
-
-.block-parallax-1 .md-box {
-    /* position: relative; */
-    text-align: center;
-    height: inherit;
-    width: 100%;
-}
-.block-parallax-1 .md-box h1 {
-    color: #fff;
-}
-
-.block-parallax-2 .parallax-bg { 	
-	background-image: url('media/bakgrunn-2.JPG');
-}
-
 
 body, html {
     font-family: Trebuchet MS;
