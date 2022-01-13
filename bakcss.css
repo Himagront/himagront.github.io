@@ -26,8 +26,8 @@
 .block-parallax-1 .md-box {
     /* position: relative; */
     text-align: center;
-    height: inherit;
     width: 100%;
+    height: inherit;
 }
 .block-parallax-1 .md-box h1 {
     color: #fff;
