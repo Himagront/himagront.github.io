@@ -5,7 +5,7 @@
 }
 
 .block-parallax-1 {
-    /* overflow: hidden; */
+    overflow: hidden;
     position: relative;
     height: auto;
     /* width: 100%; */
@@ -21,7 +21,6 @@
     width: 100%;
     min-width: 1170px;
     min-height: 800px;
-    overflow: hidden;
 }
 
 
@@ -32,7 +31,8 @@
     }
 
     .block-parallax-1 .md-box {
-        background-color: RGB(0, 0, 0, 0.5)
+        background-color: RGB(0, 0, 0, 0.5);
+        width: 100%;
     }
 
     .block-parallax-2 .parallax-bg { 	
